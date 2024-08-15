@@ -13,4 +13,4 @@ In deep learning, a convolutional neural network is a class of deep neural netwo
  **Brief Overview of the Models implemented**:
  1. **Model_1** :A CNN model containing 7 layers (3 convolutional, 1 flatten, and 3 dense) and is designed to handle binary classification task of cat and dog image classification.
  2. **Model_2** : Using the pretrained model VGG16
- 3. **Model_3** : The block of code written here iterates through the layers of the convolutional base and sets them as trainable or non-trainable. In this case, the code sets all layers in the VGG16 model as non-trainable except for the layers in block5_conv1 and those following it. This approach allows the model to fine-tune only the deeper layers of the network while keeping the earlier layers fixed.
+ 3. **Model_3** : This model uses a pre-trained VGG16 network as a base, with selective fine-tuning of layers starting from 'block5_conv1'. It adds a custom top layer for binary classification and compiles the model with an appropriate loss function and optimizer for fine-tuning.
