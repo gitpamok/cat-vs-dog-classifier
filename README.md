@@ -9,6 +9,7 @@ This problem statement and dataset is taken from this [Kaggle](https://www.kaggl
 **Convolutional Neural Network**
 
 In deep learning, a convolutional neural network is a class of deep neural networks, most commonly applied to analyzing visual imagery. 
+
  **Brief Overview of the Models implemented**:
  1. **Model_1** :A CNN model containing 7 layers (3 convolutional, 1 flatten, and 3 dense) and is designed to handle binary classification task of cat and dog image classification.
  2. **Model_2** : Using the pretrained model VGG16
